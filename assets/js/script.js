@@ -61,3 +61,11 @@ const memberslist = [
 
 
 ]
+
+for(let i = 0; i < memberslist.length; i++){
+    const members = memberslist[i];
+    for(const key in members){
+        console.log(key);
+        console.log(members[key]);
+    }
+}
